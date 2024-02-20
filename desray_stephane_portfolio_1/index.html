@@ -47,6 +47,41 @@
 
         </div>
     </section>
-</main>
+  </main>
+  <footer>
+    <section id="contactez-nous">
+        <div class="contactez-nous">
+            <h3>Contactez-nous</h3>
+            <p>Un problème, une question, envie de m'envoyer un message sympa ?<br/>N hésitez pas à utiliser ce formulaire pour prendre contact avec moi !</p>
+          
+        </div>
+        <form action="/page-traitement-donnees" method="post">
+        <div>
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Stéphane" required>
+        </div>
+        <div>
+            <label for="email">Votre e-mail</label>
+            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+        </div>
+        <div>
+            <label for="sujet">Quel est le sujet de votre message ?</label>
+            <select name="sujet" id="sujet" required>
+                <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                <option value="contact proffessionnel">contact proffessionnel</option>
+                <option value="probleme-technique">Problème technique</option>
+                <option value="autre">Autre...</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+        </div>
+        <div>
+            <button type="submit">Envoyer mon message</button>
+        </div>
+        </form>
+    </section>
+  </footer>
   </body>
 </html>
