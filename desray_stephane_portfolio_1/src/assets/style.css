@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Joyful Easter";
+    src: url("../fonts/Joyful-Easter.ttf");
+    src: url("../fonts/Joyful Easter.otf") format("truetype"),
+    url("../fonts/Joyful\ Easter.otf)") format("opentype");
+}
+
+body {
+    background-image: url("../images/pexels-sora-shimazaki-5926370.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    font-family:"Joyful Easter",serif;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+#Présentation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+img {
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid darkgrey;
+
+
+}
+
+#Présentation h1 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#content h1 {
+    text-align: center;
+    padding-left: 40px;
+}
+#content p {
+    text-align: center;
+}
+
+#création {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#content h2 {
+    text-align: center;
+    padding-left: 40px;
+}
+#content h3 {
+    text-align: center;
+    padding-left: 40px;
+}
+#content a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
