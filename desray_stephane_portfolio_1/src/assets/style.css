@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Joyful Easter";
-    src: url("../fonts/Joyful-Easter.ttf");
-    src: url("../fonts/Joyful Easter.otf") format("truetype"),
-    url("../fonts/Joyful\ Easter.otf)") format("opentype");
+    src: url("./fonts/Joyful\ Easter.ttf");
+    src: url("./fonts/Joyful-Easter.woff") format("truetype"),
+    url("./fonts/Joyful\ Easter.otf") format("opentype");
 }
 
 body {
-    background-image: url("../images/pexels-sora-shimazaki-5926370.jpg");
+    background-image: url("./images/pexels-sora-shimazaki-5926370.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
